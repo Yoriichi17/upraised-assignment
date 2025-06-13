@@ -1,4 +1,3 @@
-// User model with hashed password
 const { DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 
