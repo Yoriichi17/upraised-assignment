@@ -1,25 +1,25 @@
 ---
 
-# 🔥 Phoenix: IMF Gadget API Development Challenge
+#  Phoenix: IMF Gadget API Development Challenge
 
 A secure RESTful API to manage Impossible Missions Force (IMF) gadgets, built using Node.js, Express, and PostgreSQL with JWT authentication.
 
-## 🚀 Live Demo
+##  Live Demo
 
 * **API Base URL:** `[https://your-render-url.onrender.com](https://upraised-backend-ppzd.onrender.com)`
 * **Postman Collection:** [View Collection]([https://www.postman.com/your-link](https://www.postman.com/maintenance-cosmologist-12845390/workspace/anirudh/collection/31320871-122bc85a-0279-4191-96cb-83de309392ce?action=share&creator=31320871))
 
-## 📦 Features
+##  Features
 
-* ✅ Add, update, soft-delete gadgets
-* ✅ Auto-generated gadget codenames
-* ✅ Filter gadgets by status
-* ✅ Self-destruct endpoint with confirmation code
-* ✅ JWT-based authentication with 10-day expiry
-* ✅ Timezone-aware timestamps (IST)
-* ✅ Hosted on Render with PostgreSQL DB
+*  Add, update, soft-delete gadgets
+*  Auto-generated gadget codenames
+*  Filter gadgets by status
+*  Self-destruct endpoint with confirmation code
+*  JWT-based authentication with 10-day expiry
+*  Timezone-aware timestamps (IST)
+*  Hosted on Render with PostgreSQL DB
 
-## 📚 API Endpoints
+##  API Endpoints
 
 ### Auth
 
@@ -35,7 +35,7 @@ A secure RESTful API to manage Impossible Missions Force (IMF) gadgets, built us
 * `DELETE /gadgets/:id` – Soft delete (marks as Decommissioned)
 * `POST /gadgets/:id/self-destruct` – Trigger self-destruct
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 * Node.js + Express
 * PostgreSQL (Render)
@@ -46,7 +46,7 @@ A secure RESTful API to manage Impossible Missions Force (IMF) gadgets, built us
 * Render (Deployment)
 * Postman (Testing)
 
-## 🔐 Authentication
+##  Authentication
 
 JWT is required for protected routes. Use:
 
@@ -56,7 +56,7 @@ Authorization: Bearer <your_token>
 
 Token expires in **10 days** to ensure smooth review during submission.
 
-## ⚙️ Setup (Local Development)
+##  Setup (Local Development)
 
 1. Clone the repo
 
@@ -83,20 +83,6 @@ JWT_SECRET=your_secret_key
 
 ```bash
 npm start
-```
-
-## 📁 Folder Structure
-
-```
-├── app.js
-├── config/
-│   └── db.js
-├── controllers/
-├── models/
-├── routes/
-├── middlewares/
-├── .env
-└── README.md
 ```
 ---
 
