@@ -9,13 +9,13 @@ A secure RESTful API to manage Impossible Missions Force (IMF) gadgets, built us
 
 ##  Features
 
-- ✅ Add, update, soft-delete gadgets
-- ✅ Auto-generated gadget codenames
-- ✅ Filter gadgets by status
-- ✅ Self-destruct endpoint with confirmation code
-- ✅ JWT-based authentication with 10-day expiry
-- ✅ Timezone-aware timestamps (IST)
-- ✅ Hosted on Render with PostgreSQL DB
+-  Add, update, soft-delete gadgets
+-  Auto-generated gadget codenames
+-  Filter gadgets by status
+-  Self-destruct endpoint with confirmation code
+-  JWT-based authentication with 10-day expiry
+-  Timezone-aware timestamps (IST)
+-  Hosted on Render with PostgreSQL DB
 
 ##  API Endpoints
 
